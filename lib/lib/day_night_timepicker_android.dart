@@ -230,7 +230,7 @@ class _DayNightTimePickerAndroidState extends State<DayNightTimePickerAndroid> {
   @override
   Widget build(BuildContext context) {
     final _commonTimeStyles = Theme.of(context).textTheme.headline2.copyWith(
-          fontSize: 62,
+          fontSize: 58,
           fontWeight: FontWeight.bold,
         );
 
