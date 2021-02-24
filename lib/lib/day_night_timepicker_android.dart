@@ -271,7 +271,6 @@ class _DayNightTimePickerAndroidState extends State<DayNightTimePickerAndroid> {
           borderRadius: BorderRadius.circular(borderRadius),
           child: Column(
             mainAxisSize: MainAxisSize.max,
-            crossAxisAlignment: CrossAxisAlignment.stretch,
             children: <Widget>[
               widget.displayHeader
                   ? DayNightBanner(
