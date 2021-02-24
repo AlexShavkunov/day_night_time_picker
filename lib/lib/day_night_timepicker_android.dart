@@ -285,8 +285,6 @@ class _DayNightTimePickerAndroidState extends State<DayNightTimePickerAndroid> {
               Container(
                 height: height,
                 color: Theme.of(context).cardColor,
-                padding:
-                    const EdgeInsets.only(left: 12, top: 8, right: 12),
                 child: Column(
                   mainAxisSize: MainAxisSize.min,
                   crossAxisAlignment: CrossAxisAlignment.stretch,
