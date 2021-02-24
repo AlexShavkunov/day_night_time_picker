@@ -309,7 +309,7 @@ class _DayNightTimePickerAndroidState extends State<DayNightTimePickerAndroid> {
                             color: Colors.transparent,
                             child: Padding(
                               padding:
-                                  const EdgeInsets.symmetric(horizontal: 3.0),
+                                  const EdgeInsets.symmetric(horizontal: 1.0),
                               child: InkWell(
                                 onTap: widget.disableHour
                                     ? null
