@@ -281,12 +281,12 @@ class _DayNightTimePickerAndroidState extends State<DayNightTimePickerAndroid> {
                       sunAsset: widget.sunAsset,
                       moonAsset: widget.moonAsset,
                     )
-                  : Container(height: 25, color: Theme.of(context).cardColor),
+                  : Container(height: 20, color: Theme.of(context).cardColor),
               Container(
                 height: height,
                 color: Theme.of(context).cardColor,
                 padding:
-                    const EdgeInsets.only(left: 0, top: 0, right: 0),
+                    const EdgeInsets.only(left: 12, top: 8, right: 12),
                 child: Column(
                   mainAxisSize: MainAxisSize.min,
                   crossAxisAlignment: CrossAxisAlignment.stretch,
