@@ -270,7 +270,7 @@ class _DayNightTimePickerAndroidState extends State<DayNightTimePickerAndroid> {
         child: ClipRRect(
           borderRadius: BorderRadius.circular(borderRadius),
           child: Column(
-            mainAxisSize: MainAxisSize.min,
+            mainAxisSize: MainAxisSize.max,
             crossAxisAlignment: CrossAxisAlignment.stretch,
             children: <Widget>[
               widget.displayHeader
@@ -286,7 +286,7 @@ class _DayNightTimePickerAndroidState extends State<DayNightTimePickerAndroid> {
                 height: height,
                 color: Theme.of(context).cardColor,
                 child: Column(
-                  mainAxisSize: MainAxisSize.min,
+                  mainAxisSize: MainAxisSize.max,
                   crossAxisAlignment: CrossAxisAlignment.stretch,
                   children: <Widget>[
                     if (!widget.is24HrFormat)
