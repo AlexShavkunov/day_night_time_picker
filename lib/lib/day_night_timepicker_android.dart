@@ -263,6 +263,7 @@ class _DayNightTimePickerAndroidState extends State<DayNightTimePickerAndroid> {
     return BackdropFilter(
       filter: ImageFilter.blur(sigmaX: blurAmount, sigmaY: blurAmount),
       child: Dialog(
+        insetPadding: EdgeInsets.symmetric(horizontal: 20.0, vertical: 24.0),
         shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.circular(borderRadius),
         ),
