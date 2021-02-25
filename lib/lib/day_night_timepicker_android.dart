@@ -230,7 +230,7 @@ class _DayNightTimePickerAndroidState extends State<DayNightTimePickerAndroid> {
   @override
   Widget build(BuildContext context) {
     final _commonTimeStyles = Theme.of(context).textTheme.headline2.copyWith(
-          fontSize: 58,
+          fontSize: 56,
           fontWeight: FontWeight.bold,
         );
 
@@ -249,7 +249,7 @@ class _DayNightTimePickerAndroidState extends State<DayNightTimePickerAndroid> {
       divisions = (max - min).round();
     }
 
-    final height = widget.is24HrFormat ? 150.0 : 240.0;
+    final height = widget.is24HrFormat ? 130.0 : 240.0;
 
     final color = widget.accentColor ?? Theme.of(context).accentColor;
     final unselectedColor = widget.unselectedColor ?? Colors.grey;
@@ -282,7 +282,7 @@ class _DayNightTimePickerAndroidState extends State<DayNightTimePickerAndroid> {
                       sunAsset: widget.sunAsset,
                       moonAsset: widget.moonAsset,
                     )
-                  : Container(height: 25, color: Theme.of(context).cardColor),
+                  : Container(height: 22, color: Theme.of(context).cardColor),
               Container(
                 height: height,
                 color: Theme.of(context).cardColor,
